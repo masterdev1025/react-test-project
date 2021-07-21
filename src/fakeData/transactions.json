@@ -1,0 +1,124 @@
+{
+    "transactions": [
+        {
+            "id": 1,
+            "customer_id": 1,
+            "customer_name": "Customer1",
+            "timestamp": "2021-06-03",
+            "purchase": 120,
+            "currency": "$"
+        },
+        {
+            "id": 2,
+            "customer_id": 1,
+            "customer_name": "Customer1",
+            "timestamp": "2021-06-04",
+            "purchase": 140,
+            "currency": "$"
+        },
+        {
+            "id": 3,
+            "customer_id": 3,
+            "customer_name": "Customer3",
+            "timestamp": "2021-06-01",
+            "purchase": 90,
+            "currency": "$"
+        },
+        {
+            "id": 4,
+            "customer_id": 1,
+            "customer_name": "Customer1",
+            "timestamp": "2021-06-07",
+            "purchase": 220,
+            "currency": "$"
+        },
+        {
+            "id": 5,
+            "customer_id": 5,
+            "customer_name": "Customer5",
+            "timestamp": "2021-07-03",
+            "purchase": 140,
+            "currency": "$"
+        },
+        {
+            "id": 6,
+            "customer_id": 3,
+            "customer_name": "Customer3",
+            "timestamp": "2021-05-03",
+            "purchase": 320,
+            "currency": "$"
+        },
+        {
+            "id": 7,
+            "customer_id": 5,
+            "customer_name": "Customer5",
+            "timestamp": "2021-08-03",
+            "purchase": 115,
+            "currency": "$"
+        },
+        {
+            "id": 8,
+            "customer_id": 1,
+            "customer_name": "Customer1",
+            "timestamp": "2021-08-03",
+            "purchase": 170,
+            "currency": "$"
+        },
+        {
+            "id": 9,
+            "customer_id": 2,
+            "customer_name": "Customer2",
+            "timestamp": "2021-07-02",
+            "purchase": 95,
+            "currency": "$"
+        },
+        {
+            "id": 10,
+            "customer_id": 4,
+            "customer_name": "Customer4",
+            "timestamp": "2021-06-13",
+            "purchase": 140,
+            "currency": "$"
+        },
+        {
+            "id": 11,
+            "customer_id": 5,
+            "customer_name": "Customer5",
+            "timestamp": "2021-08-03",
+            "purchase": 55,
+            "currency": "$"
+        },
+        {
+            "id": 12,
+            "customer_id": 1,
+            "customer_name": "Customer1",
+            "timestamp": "2021-07-23",
+            "purchase": 99,
+            "currency": "$"
+        },
+        {
+            "id": 13,
+            "customer_id": 1,
+            "customer_name": "Customer1",
+            "timestamp": "2021-06-15",
+            "purchase": 170,
+            "currency": "$"
+        },
+        {
+            "id": 14,
+            "customer_id": 5,
+            "customer_name": "Customer5",
+            "timestamp": "2021-05-07",
+            "purchase": 120,
+            "currency": "$"
+        },
+        {
+            "id": 15,
+            "customer_id": 3,
+            "customer_name": "Customer3",
+            "timestamp": "2021-06-26",
+            "purchase": 80,
+            "currency": "$"
+        }
+    ]
+}
