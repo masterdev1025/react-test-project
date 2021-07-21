@@ -1,0 +1,18 @@
+.filter-view{
+    display: flex;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.filter-view .filter-item-view{
+    margin: 0px 10px;
+
+}
+.filter-view .filter-item-view label{
+    font-size: 1.2rem;
+}
+.filter-view .filter-item-view select{
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
