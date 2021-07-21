@@ -1,9 +1,14 @@
+.app-container{
+    width: 700px;
+    min-height: 700px;
+}
 .filter-view{
     display: flex;
     padding: 10px;
     border: 1px solid white;
-    border-radius: 10px;
     font-size: 1rem;
+    width: 100%;
+    justify-content: space-between;
 }
 .filter-view .filter-item-view{
     margin: 0px 10px;
@@ -15,4 +20,17 @@
 .filter-view .filter-item-view select{
     font-size: 1.2rem;
     margin-left: 10px;
+}
+
+.transaction-view{
+    margin-top: 20px;
+    border: 1px solid white;
+    padding:10px;
+    width: 100%;
+}
+.transaction-view table{
+    width: 100%;
+}
+.transaction-view table tbody{
+    max-height: 500px;
 }

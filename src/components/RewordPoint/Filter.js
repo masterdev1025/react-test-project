@@ -3,8 +3,6 @@ import React from 'react';
 class Filter extends React.Component {
 
     render() {
-        console.log(this.props)
-
         return (
             <div className="filter-view">
                 <div className="filter-item-view">
@@ -13,7 +11,7 @@ class Filter extends React.Component {
                         <option value="all" >All</option>
                         {
                             this.props.customers && this.props.customers.map((item, index) => (
-                                <option key={index} value={item.name}>{item.name}</option>
+                                <option key={index} value={item.id}>{item.name}</option>
                             ))
                         }
                     </select>
