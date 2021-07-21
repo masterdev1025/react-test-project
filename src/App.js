@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import RewordPoint from './components/RewordPoint/RewordPoint';
 import './App.css';
 

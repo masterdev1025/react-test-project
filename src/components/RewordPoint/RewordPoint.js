@@ -20,15 +20,15 @@ class RewordPoint extends React.Component {
         }
     }
     handleFilter = (value, type) => {
-        if (type == 'customer') {
+        if (type === 'customer') {
             this.setState({
                 filterCustomer: value
             })
-        } else if (type == 'year') {
+        } else if (type === 'year') {
             this.setState({
                 filterYear: value
             })
-        } else if (type == 'month') {
+        } else if (type === 'month') {
             this.setState({
                 filterMonth: value
             })
@@ -36,9 +36,9 @@ class RewordPoint extends React.Component {
     }
     arrayFilter = (array, params) => {
         return [...array.filter((item) => {
-            if (params.filterCustomer != 'all' && params.filterCustomer != item.customer_id) return false;
-            if (params.filterYear != 'all' && item.timestamp.split('-').length === 3 && item.timestamp.split('-')[0] != params.filterYear) return false;
-            if (params.filterMonth != 'all' && item.timestamp.split('-').length === 3 && Number(item.timestamp.split('-')[1]) != Number(params.filterMonth)) return false;
+            if (params.filterCustomer !== 'all' && Number(params.filterCustomer) !== item.customer_id) return false;
+            if (params.filterYear !== 'all' && item.timestamp.split('-').length === 3 && Number(item.timestamp.split('-')[0]) !== Number(params.filterYear)) return false;
+            if (params.filterMonth !== 'all' && item.timestamp.split('-').length === 3 && Number(item.timestamp.split('-')[1]) !== Number(params.filterMonth)) return false;
             return true;
         })];
     }
